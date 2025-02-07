@@ -1,0 +1,36 @@
+.typer {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    font-family: JosefineSans-SemiBold;
+    text-align: left;
+  }
+  
+  .cursor {
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    background-color: #fff;
+    animation: blink 0.7s infinite;
+  }
+  .DescHeader{
+        font-weight: bold;
+        font-size: 60px;
+        font-family: JosefineSans-SemiBold;
+        text-align: left;
+  }
+  .hero-section {
+    min-height: 100vh;
+    padding: 1rem;
+  }
+  .object-fit-cover {
+    object-fit: cover; 
+  }
+  
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  

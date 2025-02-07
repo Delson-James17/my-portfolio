@@ -1,0 +1,60 @@
+.skills-section {
+    background: #0b0e14; 
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .skills-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: JosefineSans-SemiBold;
+  }
+  
+  .skills-subheading {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .skills-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  .skill-icon {
+    font-size: 3.5rem;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .skill-icon:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+  }
+  
+  .html { color: #e34f26; }
+  .css { color: #1572b6; }
+  .js { color: #f7df1e; }
+  .react { color: #61dafb; }
+  .tailwind { color: #38bdf8; }
+  .npm { color: #cb3837; }
+  .figma { color: #f24e1e; }
+  .webpack { color: #8dd6f9; }
+  .git { color: #f1502f; }
+  .wordpress { color: #21759b; }
+  .sass { color: #cc6699; }
+  .csharp { color: #68217a;}
+  .SQL{color:#fff; font-size: 40px; font-weight: bold;}
+.dotnet { color: #5c2d91; }
+.sqlserver { color: #cc2927; }
+.xampp { color: #fb7a24; } 
+.ajax { color: #f7b731; } 
+.iis { color: #0078d4; } 
+.shopify { color: #7ab55c; } 
+.microsoft { color: #f25022; } 
+.docker { color: #0db7ed; }
+.kubernetes { color: #326ce5; } 
+  
