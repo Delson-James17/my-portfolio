@@ -1,8 +1,6 @@
 .typer {
     font-size: 1.5rem;
-    font-weight: bold;
     color: #fff;
-    font-family: JosefineSans-SemiBold;
     text-align: left;
   }
   
@@ -26,7 +24,22 @@
   .object-fit-cover {
     object-fit: cover; 
   }
+  .showprofile{
+    background: linear-gradient(45deg, #ff0080, #9c00ff);
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding: 12px 24px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+  }
   
+  .showprofile:hover {
+    box-shadow: 0 0 15px rgba(255, 0, 128, 0.8);
+    transform: scale(1.05);
+  }
   
   @keyframes blink {
     50% {

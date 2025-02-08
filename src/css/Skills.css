@@ -1,15 +1,16 @@
 .skills-section {
-    background: #0b0e14; 
+    background: #0a0f1e; 
     color: #fff;
     text-align: center;
     padding: 80px 0;
   }
   
   .skills-heading {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-weight: bold;
     margin-bottom: 10px;
-    font-family: JosefineSans-SemiBold;
+    text-align: left;
+    /* font-family: JosefineSans-SemiBold; */
   }
   
   .skills-subheading {
@@ -46,8 +47,8 @@
   .git { color: #f1502f; }
   .wordpress { color: #21759b; }
   .sass { color: #cc6699; }
-  .csharp { color: #68217a;}
-  .SQL{color:#fff; font-size: 40px; font-weight: bold;}
+  .devicon-csharp-plain { font-size: 55px;}
+  .devicon-sqldeveloper-plain{ color:#f7b731; font-size: 55px;}
 .dotnet { color: #5c2d91; }
 .sqlserver { color: #cc2927; }
 .xampp { color: #fb7a24; } 

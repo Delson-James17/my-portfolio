@@ -1,5 +1,5 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
-import profileImage from "../assets/profile.png"; 
+import profileImage from "../assets/profile1.png"; 
 import TypingText from "./TypingText.jsx";
 
 export default function Hero() {
@@ -11,7 +11,7 @@ export default function Hero() {
             <h1 className="DescHeader ms-5">Hi, I am <span className="text-success">Delson James !</span></h1>
             <div className="ms-5"><TypingText /></div>
             <div className="d-flex gap-2 ms-5">
-              <Button variant="success" >Show Profile</Button>
+              <Button className="showprofile" >Show Profile</Button>
               <Button variant="outline-light" >Explore More</Button>
             </div>
           </Col>
