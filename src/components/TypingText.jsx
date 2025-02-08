@@ -2,9 +2,12 @@ import { useState, useEffect } from "react";
 import  '../css/TypingText.css'
 export default function TypingText() {
   const texts = [
-    "I know WP theme development..",
-    "I know WP plugin development..",
-    "I Know WordPress Support"
+    "Hi My Name is Delson James M. Tubiera Welcome to my Website",
+   `I’m a young professional with 2 years of experience in Information Technology involving 
+Software Engineering.`,
+    `Have background in web development and have in-dept 
+exposureto ASP.NET Framework, ASP.NET Core, SQL Server ,WordPress, Shopify 
+and design / architectural patterns. `
   ];
 
   const [currentText, setCurrentText] = useState("");
