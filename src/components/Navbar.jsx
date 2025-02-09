@@ -40,7 +40,8 @@ export default function NavigationBar() {
           <nav className={`nav-links ${isOpen ? "open" : ""}`}>
             <ul className="portfolio-menu text-white">
               <li><Link to="home" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Home</Link></li>
-              <li><Link to="services" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Services</Link></li>
+              <li><Link to="services" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Skills</Link></li>
+              <li><Link to="Experience" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Experience</Link></li>
               <li><Link to="portfolio" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Portfolio</Link></li>
               <li><Link to="contact" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Contact</Link></li>
             </ul>
