@@ -19,6 +19,21 @@
     opacity: 1;
     transform: translateY(0);
   }
+  .portfolio-menu li {
+    list-style: none;
+  }
+  .portfolio-menu li button {
+    background: none;
+    border: none;
+    color: white; 
+    font-size: 16px;
+    cursor: pointer; 
+    padding: 10px;
+  }
+  
+  .portfolio-menu li button:hover {
+    color: #f39c12; 
+  }
   
   .header.hidden {
     opacity: 0;

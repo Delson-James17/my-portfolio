@@ -4,7 +4,7 @@ import TypingText from "./TypingText.jsx";
 
 export default function Hero() {
   return (
-    <section className="hero-section text-white d-flex align-items-center w-100">
+    <section id='home' className="hero-section text-white d-flex align-items-center w-100">
       <Container fluid className="p-0">
         <Row className="align-items-center g-0 vh-100">
           <Col lg={7} className="text-lg-start d-flex flex-column justify-content-center p-5">

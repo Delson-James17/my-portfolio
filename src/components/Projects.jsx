@@ -1,10 +1,11 @@
 import { Container } from "react-bootstrap";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import Project4 from '../assets/Project4v1.png'
+import Project1 from '../assets/ChatApp.jpg'
 import "../css/Projects.css";
 
 const projects = [
-  { id: 1, image: "/assets/project1.jpg", title: "Website Coding", stack: "HTML, CSS, JS", link: "#" },
+  { id: 1, image: Project1, title: "ChatApp", stack: "React, Firebase, Javascript , Css", link: "https://chatapproj.netlify.app/" },
   { id: 2, image: "/assets/project2.jpg", title: "Website Coding", stack: "HTML, CSS, JS", link: "#" },
   { id: 3, image: "/assets/project3.jpg", title: "Website Coding", stack: "HTML, CSS, JS", link: "#" },
   { id: 4, image: Project4, title: "PJL RealEstate", stack: "C#,SSMSQL,Entity Framework, CSS, JS,ASP.NET CORE,Docker and Kubernetes", link: "https://github.com/Delson-James17/RealnaRealEstate" },

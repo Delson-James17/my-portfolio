@@ -48,7 +48,7 @@ const experiences = [
   
 export default function Experience() {
   return (
-    <section className="experience-section">
+    <section id='experience' className="experience-section">
       <Container>
         <h2 className="experience-heading">Experience</h2>
         <div className="timeline">
